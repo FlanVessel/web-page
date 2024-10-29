@@ -19,10 +19,20 @@ img, iframe {
   height: auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
+
 table {
   width: 100%;
   border-collapse: collapse;
 }
+
+table, th, td {
+  border: 1px solid #1c552d;
+}
+
 
 .mt-10 { margin-top: 10px; }
 .mb-10 { margin-bottom: 10px; }
@@ -38,5 +48,22 @@ table {
 :root {
   --main-color: #000000;
   --secondary-color: #0056b3;
-  --background-light: #239c60;
+  --background-light: #67eeaa;
+}
+
+.content-box {
+  background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-box iframe {
+  width: 100%; 
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
