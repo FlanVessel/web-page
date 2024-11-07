@@ -67,3 +67,19 @@ table, th, td {
   aspect-ratio: 16 / 9;
   border: none;
 }
+
+/* Fondo azul para el container principal */
+    .bg-blue {
+      background-color: #3d4144; /* Azul Bootstrap */
+      color: white;
+    }
+
+    /* Fondo gris para el segundo container */
+    .bg-gray {
+      background-color: #4b4d50; /* Gris claro */
+    }
+
+    /* Estilos para la imagen seleccionada */
+    .selected-image {
+      padding: 5px;
+    }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
@@ -64,9 +65,307 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container text-center">
+      
+      <a href="https://www.humblebundle.com/membership?partner=fforelliot&gad_source=1" target="_blank">Pagina de Referencia</a> 
       
     </div>
+
+
+    <div class="container-fluid position-relative p-0">
+          <img src="https://hb.imgix.net/0adbe119eb1d89016777db23189fdf44643fe152.jpg?auto=compress,format&fit=max&s=fe9362cec5d97b12a43e6fa92f5798da" alt="Bootstrap" class="img-fluid w-76" width="1257">
+    </div>
+
+    <div class="container-fluid position-relative p-0">
+      
+      <img src="https://hb.imgix.net/941706ced37cfd11f7539cde1ff2d1b99a5405ff.jpg?auto=compress,format&fit=max&s=f89ae810f0418e5181795591935312cc" class="img-fluid w-76" alt="Fondo Humble Choice">
+    
+      
+      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white p-4">
+        
+        
+        <h1 class="single-game-marketing-subheader mb-4">
+          ¡Consigue cada mes juegos grandiosos que serán tuyos por siempre con Humble Choice!
+        </h1>
+        
+      
+        <p class="single-game-hero-description mb-4">
+          Cause futuristic carnage in <em>Warhammer 40,000: Darktide</em>, soak up gorgeous anime-inspired visuals in <em>Persona 4 Golden</em>, and more!
+        </p>
+        
+        
+        <ul class="list-unstyled mb-4">
+          <li>Get a curated mix of PC games every month</li>
+          <li>Save up to 20% in our store, including hot new releases</li>
+          <li>5% of your Humble Choice membership supports charity</li>
+          <li>Only $11.99 per month. Skip a month or cancel anytime!</li>
+        </ul>
+        
+        
+        <button type="button" class="btn btn-info">Hazte miembro</button>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-secondary p-3 text-light mt-auto">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-4 mt-auto">
+            <p>Consigue una selección de juegos de PC todos los meses. Son tuyos para siempre.</p>
+          </div>
+
+          <div class="col-md-4 mb-4 mt-auto">
+            <p></p>
+            <p>Como bono para miembros, puedes descubrir las propuestas indie más gustadas en la Bóveda. </p>
+          </div>
+
+          <div class="col-md-4 mb-4 mt-auto">
+            <p>Consigue ahorros increíbles y descuentos exclusivos </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+<div class="container-fluid bg-blue py-5">
+  <div class="container bg-gray mt-5 p-4 position-relative">
+    
+    <div class="row text-center justify-content-center">
+      <div class="col-1 d-flex align-items-center">
+        
+        <button class="btn btn-outline-primary" onclick="prevImage()">‹</button>
+      </div>
+      
+      
+      <div class="col-10 d-flex justify-content-around">
+        <img src="https://hb.imgix.net/3759667018c8f6205fb77ff91f43b312bc07891b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=10ef24215ca6e8cb3ea84a57242d608b" class="img-thumbnail" height="100" width="100" alt="Warhammer 40,000 Darktide" onclick="selectImage(this, 'Warhammer 40,000 Darktide', 'Descripción de la imagen 1')">
+        <img src="https://hb.imgix.net/e70730644c3f5e0532517f568a05b9e27de6d007.png?auto=compress,format&fit=clip&h=383&w=667&s=59cf39a52afd05b1a31fde95266dd42e" class="img-thumbnail" height="100" width="100" alt="Persona 4 Golden" onclick="selectImage(this, 'Imagen 2', 'Descripción de la imagen 2')">
+        <img src="https://hb.imgix.net/f4ebdd41c7d9ed5eea61158d89d86e3101e93d52.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6267abbb6db52ad259d73e0f0a68297a" class="img-thumbnail" height="100" width="100" alt="Lamplighters League" onclick="selectImage(this, 'Imagen 3', 'Descripción de la imagen 3')">
+        <img src="https://hb.imgix.net/d5b864b0006d29e7b6d4105d07d3e8e8f837251e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5d3487e1328746018b791d612e354ba9" class="img-thumbnail" height="100" width="100" alt="Cassette Beasts" onclick="selectImage(this, 'Imagen 4', 'Descripción de la imagen 4')">
+        <img src="https://hb.imgix.net/7287aed48aabf291355297dc1c0615058d08ce84.jpg?auto=compress,format&fit=clip&h=383&w=667&s=939d7527f9566a22d7201aa86954cbf7" class="img-thumbnail" height="100" width="100" alt="The Bookwalker: Thief of Tales" onclick="selectImage(this, 'Imagen 5', 'Descripción de la imagen 5')">
+      </div>
+
+      <div class="col-1 d-flex align-items-center">
+        
+        <button class="btn btn-outline-primary" onclick="nextImage()">›</button>
+      </div>
+    </div>
+
+    
+    <div id="expanded-view" class="mt-5 text-center">
+      <div id="selected-image-container">
+      
+        <img id="selected-image" src="https://via.placeholder.com/300" class="img-fluid selected-image" alt="Imagen Ampliada">
+      </div>
+      
+      <h5 id="image-title" class="mt-3">Título de la Imagen</h5>
+    </div>
+  </div>
+</div>
+
+   <div class="container-fluid bg-blue py-5">
+
+    <div class="container bg-gray mt-5 p-4 position-relative">
+
+      <div class="row">
+        
+        <div class="col-md-6">
+          <h2>Explorar la bóveda</h2>
+          <p>Descubre más de 50 juegos independientes favoritos sin DRM y rarezas experimentales en la bóveda, disponibles a través de la aplicación Humble para Windows PC.</p>
+          <button type="button" class="btn btn-outline-primary">Únete a la selección</button>
+        </div>
+    
+        
+        <div class="col-md-6">
+          <div class="row">
+            
+            <div class="text-center">
+              <img src="https://hb.imgix.net/9898dee29d4556c2d56abf4550a129ffcb5c4eaa.png?auto=compress,format&fit=clip&s=20aedbb81698e8d9107affb8d786c448" class="img-fluid" alt="Imagen 1">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+
+
+   <div class="container-fluid bg-blue py-2">
+
+    <div class="container bg-gray mt-1 p-5 position-relative text-center">
+
+      <h2>Apoyamos causas benéficas en todo lo que hacemos </h2>
+
+      <p></p>
+
+      <p>El 5 % de cada suscripción a Humble Choice se dona a nuestra organización benéfica destacada del mes. El mes pasado, nuestros miembros donaron más de 285.000,00 $ a Crisis Text Line. ¡Juntos, podemos marcar la diferencia! </p>
+
+    </div>
+
+    <div class="container bg-light text-muted text-center">
+
+      <div class="row">
+
+        <div class="col-md-6 mt-1 p-3">
+
+          <h2>262.000.000 $</h2>
+
+          <p>Hemos reunido más de 262.000.000 $ para organizaciones benéficas y contando. </p>
+
+        </div>
+
+        <div class="col-md-6 mt-1 p-3">
+
+          <h2>34.000</h2>
+
+          <p>Hemos apoyado a más de 34.000 organizaciones benéficas hasta la fecha. </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container bg-gray mt-1 p-5 position-relative">
+
+      <div class="container bg-primary mt-1 p-4 position-relative">
+
+        <p> La causa benéfica de este mes: </p>
+
+        <h3>The Movember Foundation</h3>
+
+        <p>Movember is dedicated to changing the perception of men’s health—their mission is to take on mental health & suicide, testicular cancer, and prostate cancer. </p>
+
+      </div>
+
+      <div class="conatiner mt-1 p-4 position-relative text-center">
+
+        <img src="https://hb.imgix.net/3effb82ab7f8fea1318d9242ddcd459bc28b3b9f.jpg?auto=compress,format&fit=clip&h=165&w=260&s=01edeec2d1a9557ee19f5efa565b9b6c" class="">
+
+      </div>
+
+      <div class="container mt-1 p-1 position-relative text-center">
+
+        <button type="button" class="btn btn-outline-primary">Más Información</button>
+
+      </div>
+
+    </div>
+
+   </div>
+
+
+   <div class="container-fluid bg-blue py-2">
+
+    <div class="container bg-gray mt-5 p-5 position-relative">
+
+      <div class="row">
+
+        <div class="col-md-6 mt-1 p-3">
+
+          <img src="https://cdn.humblebundle.com/static/hashed/8fb6049ba22e21b8697edf91a1653247edfef5a4.png" width="357" height="222">
+
+        </div>
+
+        <div class="col-md-6 mt-1 p-3">
+
+          <h2>Consigue recompensas por ser miembro </h2>
+
+          <p>Cuanto más tiempo seas miembro activo de Choice, más premios desbloquearás. Ahorra hasta un 20 % de descuento en tus compras* en Humble Store o dónalo a una organización benéfica. </p>
+
+          <button type="button" class="btn btn-outline-primary">Únete ahora</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+   </div>
+
+
+   <div class="container-fluid bg-blue py-4"></div>
+
+
+   <div class="container-fluid bg-gray py-2">
+
+    <div class="container-fluid mt-1 p-5 position-relative text-center text-white">
+
+      <h2>Creado por nuestros expertos curadores de juegos </h2>
+
+      <p></p>
+
+      Nuestros expertos tienen en cuenta las valoraciones, las críticas y nuestro 
+      propio amor por los juegos para elaborar un excelente repertorio de juegos
+      a los que no podrás esperar a jugar cada mes. ¡Nosotros hacemos el
+      trabajo para que tú puedas divertirte!
+
+    </div>
+
+    <div class="container mt-5">
+
+      <div class="row text-white">
+        
+        <div class="col-md-4">
+          
+          <h2> Descubre y consigue nuevos juegos cada mes </h2>
+
+        </div>
+        
+        <div class="col-md-4">
+          
+          <h2>Podrás conservar todos los juegos para siempre</h2>
+
+        </div>
+    
+        <div class="col-md-4">
+          
+          <h2> Sáltate un mes o cancela cuando quieras </h2>
+
+        </div>
+
+      </div>
+
+      <p></p>
+
+    </div>
+
+
+    <div class="container-fluid bg-blue py-4">
+
+      <div class="container bg-primary p-3 text-white text-center">
+
+        <h2>Consigue hoy tus juegos</h2>
+
+        <p> ¡Hazte con todos los juegos de este mes y accede a más por tan solo 11,99 $/mes! </p>
+
+        <div class="row text-center">
+
+          <div class="col-md-6 mt-1 p-3">
+  
+            <button type="button" class="btn btn-outline-light text-dark">Únete ahora</button>
+  
+          </div>
+  
+          <div class="col-md-6 mt-1 p-3">
+  
+            <button type="button" class="btn btn-outline-dark">Regala una suscripción</button>
+            
+          </div>
+  
+        </div>
+
+      </div>    
+
+    </div>
+
+    
     <footer class="bg-dark text-light py-4 mt-auto">
       <div class="container">
         <div class="row">
@@ -103,5 +402,43 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      // Variables para manejo del carrusel y la imagen seleccionada
+      let currentImageIndex = 0;
+      const images = document.querySelectorAll('.img-thumbnail');
+      const selectedImage = document.getElementById('selected-image');
+      const imageTitle = document.getElementById('image-title');
+      const imageDescription = document.getElementById('image-description');
+    
+      function selectImage(imgElement, title, description) {
+        selectedImage.src = imgElement.src;
+        imageTitle.textContent = title;
+        imageDescription.textContent = description;
+      }
+    
+      function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        updateImage();
+      }
+    
+      function prevImage() {
+        currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+        updateImage();
+      }
+    
+      function updateImage() {
+        const imgElement = images[currentImageIndex];
+        selectImage(imgElement, imgElement.alt, `Descripción de ${imgElement.alt}`);
+      }
+    
+      // Selecciona la primera imagen por defecto al cargar la página
+      document.addEventListener('DOMContentLoaded', () => {
+        selectImage(images[0], images[0].alt, `Descripción de ${images[0].alt}`);
+      });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+
   </body>
 </html>
